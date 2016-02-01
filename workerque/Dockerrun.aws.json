@@ -1,0 +1,13 @@
+{
+  "AWSEBDockerrunVersion": "1",
+  "Image": {
+    "Name": "busybox:latest",
+    "Update": "true"
+  },
+  "Command": "sleep 99999999999",
+  "Ports": [
+    {
+      "ContainerPort": "1234"
+    }
+  ]
+}
